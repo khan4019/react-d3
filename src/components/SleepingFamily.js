@@ -39,14 +39,19 @@ class SleepingFamily extends Component {
         return (
             <div>
                 <h1>This is Sleeping family</h1>
-                <h2>uses react-vis</h2>
+                <h2><a href="http://uber.github.io/react-vis/#/documentation/overview/introduction">uses react-vis</a></h2>
                 <XYPlot height={300} width={300}>
                     <XAxis/>
                     <YAxis/>
+                    
                     <HorizontalGridLines/>
                     <VerticalBarSeries data={this.data.partner1}/>
-                    <VerticalBarSeries data={this.data.partner2}/>
-                    <LineSeries data={this.data.avg}/>
+                    <VerticalBarSeries 
+                        data={this.data.partner2}
+                        color="purple"
+                        opacity="0.5"
+                    />
+                    <LineSeries data={this.data.avg} color="yellow"/>
                 </XYPlot>
             </div>
         );
