@@ -38,9 +38,7 @@ class SleepingFamily extends Component {
     render() {
         return (
             <div>
-                <h1>This is Sleeping family</h1>
-                <h2><a href="http://uber.github.io/react-vis/#/documentation/overview/introduction">uses react-vis</a></h2>
-                <XYPlot height={300} width={300}>
+                 <XYPlot height={300} width={300}>
                     <XAxis/>
                     <YAxis/>
                     

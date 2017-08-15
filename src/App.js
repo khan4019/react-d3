@@ -15,9 +15,9 @@ class App extends Component {
         <SleepingFamily/>
         <BadBar data={[12,3,4,5,12,6]} height="200"/>
         <WorldBubble/>  
-        <Child name="Sheldon"/>
-        <Child name="Penny"/>
-        <Child name="Haward"/>
+        <Child name="Arnold"/>
+        <Child name="Schwarzenegger"/>
+        <Child name="god no"/>
       </div>
     );
   }
