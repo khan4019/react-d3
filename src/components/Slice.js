@@ -26,7 +26,7 @@ class Slice extends Component {
         if (this.state.isHovered) {
             outerRadius *= 1.1;
         }
-        let arc =  d3.arc()
+        const arc =  d3.arc()
             .innerRadius(innerRadius)
             .outerRadius(outerRadius)
             .cornerRadius(cornerRadius)
